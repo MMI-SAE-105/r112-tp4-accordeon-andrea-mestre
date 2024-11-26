@@ -10,14 +10,24 @@ details{
     display: flex;
     width: 200px;
     overflow: hidden;
-    transition: width 2s; 
+    transition: width 1s ease-in; 
     gap: 10px;
+    position: relative;
 }
 
 details[open]{
     width: 400px;
     gap: 10px;   
-
 }
 
+details>summary {
+    top :0px;
+    left: 0px;
+}
+
+details>div {
+    width: 200px;
+    height: 200px;
+    
+}
 

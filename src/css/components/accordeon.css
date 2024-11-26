@@ -1,3 +1,23 @@
-/**
-* Accordeon
-*/
+.accordeon {
+    display: flex;
+}
+
+details summary{
+list-style-type: none;
+}
+
+details{
+    display: flex;
+    width: 200px;
+    overflow: hidden;
+    transition: width 2s; 
+    gap: 10px;
+}
+
+details[open]{
+    width: 400px;
+    gap: 10px;   
+
+}
+
+

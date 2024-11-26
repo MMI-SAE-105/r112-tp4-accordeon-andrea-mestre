@@ -17,7 +17,6 @@ details{
 
 details[open]{
     width: 400px;
-    gap: 10px;   
 }
 
 details>summary {
@@ -26,7 +25,7 @@ details>summary {
 }
 
 details>div {
-    width: 200px;
+    width: 180px;
     height: 200px;
     
 }
